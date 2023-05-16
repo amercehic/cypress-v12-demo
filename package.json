@@ -1,0 +1,25 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "dashboard": "npx cypress open",
+    "asset-management:headed": "npx cypress run --headed --spec cypress/e2e/asset-management.cy.ts",
+    "asset-management:headless": "npx cypress run --headless --spec cypress/e2e/asset-management.cy.ts"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  }
+}

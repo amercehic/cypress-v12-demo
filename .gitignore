@@ -1,0 +1,24 @@
+# Cypress generated files
+/cypress/videos/
+/cypress/screenshots/
+
+# Cypress binary cache
+/.cache/
+
+# Cypress configuration file
+/cypress.env.json
+
+# Cypress test results
+/mochawesome-report/
+
+# Node.js dependencies
+/node_modules/
+
+# Environment-specific variables
+/.env
+.env.local
+.env.*.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
